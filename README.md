@@ -1,16 +1,16 @@
 # Getting Started with Create React App
 
-Required Libarires for run the application:
+Required Libraries  for run the application:
 
-## Download the app using below command any enviorment Unix or Windows:
+## Download the app using below command any Environment Unix or Windows:
 1) git clone https://github.com/venkatweb1234/optus_users_hierarchy.git
 
-# After clone the app just use the below command u will get what I have installed libriries for this app
+# After clone the app just use the below command u will get what I have installed Libraries  for this app
 
 npm install
 
 # Used Librariries for this app:
-1) Node JS (https://nodejs.org/en/download/) install in your machine based on your Environemnt (Windows/Linux/Mac) if u don't have.
+1) Node JS (https://nodejs.org/en/download/) install in your machine based on your Environment  (Windows/Linux/Mac) if u don't have.
 2) Typescript
 
 3) React-testing-library
