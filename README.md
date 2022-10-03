@@ -1,46 +1,47 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Required Libarires for run the application:
 
-## Available Scripts
+## Download the app using below command any enviorment Unix or Windows:
+1) git clone https://github.com/venkatweb1234/optus_users_hierarchy.git
 
-In the project directory, you can run:
+# After clone the app just use the below command u will get what I have installed libriries for this app
 
-### `npm start`
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Used Librariries for this app:
+1) Node JS (https://nodejs.org/en/download/) install in your machine based on your Environemnt (Windows/Linux/Mac) if u don't have.
+2) Typescript
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3) React-testing-library
 
-### `npm test`
+4) Jest
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5) React-router-dom
 
-### `npm run build`
+## For All Test Cases run below command:
+npm run test or npm test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How can you see the response?
+Ans: You can see the response by using below path
+# http://localhost:3000/?userId=1
+if u want to see response for other user just change userId value 1 to 2 below like this.
+# http://localhost:3000/?userId=2
+# http://localhost:3000/?userId=3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Written Solution for this app:
+This task is for getSubordinates for user,
+there are Roles, users list in mock.ts, 
+there is a function and it written getSubordinates(userId), to get sub ordinates for specfic User Id.
 
-### `npm run eject`
+I have written this task in React Js, Typescript, 
+First I have taken roles, and users list in mock.ts
+and i have written one function getSubordinates(userId), to get subordinates of  that specified user by passing userId. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## All Test Cases are passed please check and confirm.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### There are differnet ways to implement the same solution using by vanilla  JavaScript & NodeJS also.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
