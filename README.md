@@ -11,6 +11,7 @@ npm install
 
 # Used Librariries for this app:
 1) Node JS (https://nodejs.org/en/download/) install in your machine based on your Environment  (Windows/Linux/Mac) if u don't have.
+
 2) Typescript
 
 3) React-testing-library
@@ -19,8 +20,6 @@ npm install
 
 5) React-router-dom
 
-## For All Test Cases run below command:
-npm run test or npm test
 
 ### How can you see the response?
 Ans: You can see the response by using below path
@@ -29,6 +28,8 @@ if u want to see response for other user just change userId value 1 to 2 below l
 # http://localhost:3000/?userId=2
 # http://localhost:3000/?userId=3
 
+## Please check all test cases passed or not using below commands:
+npm run test or npm test
 
 ### Written Solution for this app:
 This task is for getSubordinates for user,
@@ -37,7 +38,7 @@ there is a function and it written getSubordinates(userId), to get sub ordinates
 
 I have written this task in React Js, Typescript, 
 First I have taken roles, and users list in mock.ts
-and i have written one function getSubordinates(userId), to get subordinates of  that specified user by passing userId. 
+and I have written one function getSubordinates(userId), to get subordinates of  that specified user by passing userId. 
 
 ## All Test Cases are passed please check and confirm.
 
